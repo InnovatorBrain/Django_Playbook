@@ -1,0 +1,14 @@
+# Debigging Django Application:
+ 
+
+1. ### Debigging in VSCode:
+   run debugger in VSCode with adding breakpoints to test results.
+      - debug each line
+      - check inside 
+      - check outside 
+      - jump over the code line
+2. ### Using Django Debug Tool: 
+    - There is a step by step guide how to set it on its documentation
+    <!-- make sure that venv is activated when write first command for installation-->
+    <!-- search django debug toolbar -->
+    - It will be shown when we use proper HTML 
