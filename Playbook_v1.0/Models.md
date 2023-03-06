@@ -1,0 +1,20 @@
+# Models
+
++ create models in specific assigned app 
++ also can create more classes in one models.py 
++ DEFINE "OneToOne", "OneToMany", "ManyToMany" RELATIONSHIPS BETWEEN THEM
+
+### Circular Relationship:
+it means the classes dependency increase on each other. (or the uper class access error).
++ Django makes a reverse relationship for us as a default(in this case it produces error)
+ 1. Use relation class name in string like 'Product'
+ 2. Set it tells django not to create reverse relationship
+ - related_name = '+'
+
+### Generic Relationship* (ONE APP TO OTHER APP)
+use ContentType app for generic relationships which is already installed in settings
+- from django.contrib.contenttypes.models import ContentType
+ #### Explore these things
+- from django.contrib.auth.models import User
+- from django.contrib.contenttypes.models import ContentType
+- from django.contrib.contenttypes.fields import GenericForeignKey
