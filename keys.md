@@ -4,3 +4,11 @@
 - ctrl + t
 ### jump to command Paletter
 - ctrl + shift + p
+
+
+
+
+# Commands:
+
+### for one step back in path
+- cd ..
