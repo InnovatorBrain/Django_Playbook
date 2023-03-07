@@ -4,6 +4,8 @@
 - ctrl + t
 ### jump to command Paletter
 - ctrl + shift + p
+### To see all symbols in file 
+- ctrl + shift + o
 
 
 
